@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv(override=True)
 
 GITHUB_TOKEN = os.getenv('GITHUB_TOKEN')
-REPO_OWNER = 'shaikh-hammad'
+REPO_OWNER = 'dajmi'
 REPO_NAME = 'PLCReporting'
 COMMIT_MESSAGE = 'log upload'
 
