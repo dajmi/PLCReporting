@@ -47,7 +47,7 @@ def git_upload(FILE_NAME, FILE_PATH):
         return False, "failed"
 
 
-def summarize_log_to_markdown(log_filepath, log_filename):
+def summarize_log_to_markdown(log_filepath, log_filename, id):
     """
     Reads a log file, counts test successes and failures, and creates a 
     markdown summary with the counts and the full log content.
@@ -55,9 +55,11 @@ def summarize_log_to_markdown(log_filepath, log_filename):
     Args:
         log_filepath: Path to the input log file.
         markdown_filepath: Path to the output markdown file.
+	id: Test suite identifier.
     """
     md_filename = log_filename.replace(".log", ".md")
     md_filepath = f"local_logs/{md_filename}"
+    id = id.replace('_', ' ')
     try:
         with open(log_filepath, 'r') as log_file:
             log_content = log_file.readlines()
@@ -75,7 +77,7 @@ def summarize_log_to_markdown(log_filepath, log_filename):
             failure_count += 1
 
     with open(md_filepath, 'w') as md_file:
-        md_file.write("# Test Suite Summary\n\n")
+        md_file.write(f"# Test Suite Summary: {id}\n\n")
         md_file.write(f"**Total Tests:** {success_count + failure_count}\n\n")
         md_file.write(f"**Total Successes:** {success_count}\n\n")
         md_file.write(f"**Total Failures:** {failure_count}\n\n")
@@ -88,6 +90,3 @@ def summarize_log_to_markdown(log_filepath, log_filename):
         md_file.write("```\n")
 
     return md_filename, md_filepath
-
-# if __name__=="__main__":
-#     git_upload('test.log')
