@@ -1,8 +1,8 @@
 # Test Suite Summary: Three Way LTU
 
-**Total Tests:** 16
+**Total Tests:** 24
 
-**Total Successes:** 16
+**Total Successes:** 24
 
 **Total Failures:** 0
 
@@ -27,4 +27,12 @@
 2025-01-28 16:27:04,007 - INFO - TEST_CASE_SUCCESS - Reset Command - Message: Reset Complete
 2025-01-28 16:27:04,008 - INFO - TEST_CASE_SUCCESS - IssueRecoverCommandExpectReadyToRelease - Message: Ready To Release State Achieved
 2025-01-28 16:27:04,009 - INFO - TEST_CASE_SUCCESS - BlockReleaseExpectStopReleased - Message: Stop Released
+2025-01-28 16:33:54,890 - INFO - TEST_CASE_SUCCESS - IssueRecoverCommandExpectReadyToRelease - Message: Ready To Release State Achieved
+2025-01-28 16:33:54,892 - INFO - TEST_CASE_SUCCESS - RaiseLifterExpectLifterRaised - Message: Lifter Raised
+2025-01-28 16:33:54,893 - INFO - TEST_CASE_SUCCESS - Reset Command - Message: Reset Complete
+2025-01-28 16:33:54,894 - INFO - TEST_CASE_SUCCESS - RetractDamperExpectDamperRetracted - Message: Damper Retracted
+2025-01-28 16:33:54,896 - INFO - TEST_CASE_SUCCESS - ExtendDamperExpectDamperExtended - Message: Damper Extended
+2025-01-28 16:33:54,898 - INFO - TEST_CASE_SUCCESS - LowerLifterExpectLifterLowered - Message: Lifter Lowered
+2025-01-28 16:33:54,899 - INFO - TEST_CASE_SUCCESS - BlockStopExpectStopBlocked - Message: Stop Blocked
+2025-01-28 16:33:54,900 - INFO - TEST_CASE_SUCCESS - BlockReleaseExpectStopReleased - Message: Stop Released
 ```
