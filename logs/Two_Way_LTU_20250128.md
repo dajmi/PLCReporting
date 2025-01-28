@@ -1,8 +1,8 @@
 # Test Suite Summary: Two Way LTU
 
-**Total Tests:** 9
+**Total Tests:** 11
 
-**Total Successes:** 9
+**Total Successes:** 11
 
 **Total Failures:** 0
 
@@ -20,4 +20,6 @@
 2025-01-28 04:16:12,879 - INFO - TEST_CASE_SUCCESS - Reset Command - Message: Reset Complete
 2025-01-28 04:16:12,880 - INFO - TEST_CASE_SUCCESS - IssueRecoverCommandExpectReadyToRelease - Message: Ready To Release State Achieved
 2025-01-28 04:37:52,021 - INFO - TEST_CASE_SUCCESS - IssueRecoverCommandExpectReadyToRelease - Message: Ready To Release State Achieved
+2025-01-28 04:37:52,649 - INFO - TEST_CASE_SUCCESS - Reset Command - Message: Reset Complete
+2025-01-28 04:43:41,785 - INFO - TEST_CASE_SUCCESS - Two Way LTU - Message: Ready To Release State Achieved
 ```
