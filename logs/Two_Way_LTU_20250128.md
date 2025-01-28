@@ -1,8 +1,8 @@
 # Test Suite Summary: Two Way LTU
 
-**Total Tests:** 14
+**Total Tests:** 15
 
-**Total Successes:** 14
+**Total Successes:** 15
 
 **Total Failures:** 0
 
@@ -25,4 +25,5 @@
 2025-01-28 04:43:42,397 - INFO - TEST_CASE_SUCCESS - Two Way LTU - Message: Reset Complete
 2025-01-28 04:46:14,724 - INFO - TEST_CASE_SUCCESS - Two Way LTU - Message: Reset Complete
 2025-01-28 04:46:14,725 - INFO - TEST_CASE_SUCCESS - Two Way LTU - Message: Ready To Release State Achieved
+2025-01-28 04:51:59,989 - INFO - TEST_CASE_SUCCESS - Two Way LTU - Message: Ready To Release State Achieved
 ```
